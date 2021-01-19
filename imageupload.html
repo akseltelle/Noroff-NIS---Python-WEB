@@ -5,6 +5,11 @@
     <title>Image Upload</title>
 </head>
 <body>
-
+    <form method="POST" action="imageupload.py" enctype="multipart/form-data">
+        <h1>Upload an image</h1>
+        <input type="file" name="imagefile" accept=".png,.jpg"/>
+        <br/><br/>
+        <input type="submit" value="Upload image"/>
+    </form>
 </body>
 </html>
