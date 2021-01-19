@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Build your pizza</title>
+</head>
+<body>
+    <form method="post" action="orderpizzatoppings.py">
+        <h1>Select your toppings</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Select&nbsp;
+                    </th>
+                    <th>
+                        Toppings&nbsp;
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="cheese" value="cheese"/>
+                    </td>
+                    <td>
+                        cheese&nbsp;
+                    </td>
+                    <td>
+                        $0.50
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="bacon" value="bacon"/>
+                    </td>
+                    <td>
+                        bacon&nbsp;
+                    </td>
+                    <td>
+                        $0.90
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="pineapple" value="pineapple"/>
+                    </td>
+                    <td>
+                        pineapple&nbsp;
+                    </td>
+                    <td>
+                        $0.70
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="avocado" value="avocado"/>
+                    </td>
+                    <td>
+                        avocado&nbsp;
+                    </td>
+                    <td>
+                        $0.90
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="tips" value="tips"/> Yes <br>
+                        <input type="radio" name="tips" value=""/> No
+                    </td>
+                    <td>
+                        Do you want to tip?&nbsp;
+                    </td>
+                    <td>
+                        $1.00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="submit" value="Place Order"/> <br/>
+    </form>
+</body>
+
