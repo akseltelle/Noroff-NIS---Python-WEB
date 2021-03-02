@@ -1,0 +1,27 @@
+from datetime import *
+
+now = datetime.today()
+print("Today: ", now)
+print("Current time: ", now.hour, ":", now.minute, ":", now.second, sep="")
+print("Current date: ", now.day, ".", now.month, ".", now.year,  sep="")
+print("Current date: ", now.day, " ", now.strftime("%B"), " ", now.year,  sep="")
+print("Current date:", now.day, now.strftime("%B"), now.year,  sep=" ")
+print("Current date and time: ", now.day, " ", now.strftime("%B"), " ", now.year, " ", now.hour, ":", now.minute, ":", now.second,  sep="")
+print("Today is a ", now.strftime("%A"), sep="")
+print("The month is ", now.strftime("%B"), sep="")
+
+
+print("Content-Type: text/html")
+print()
+print("<!DOCTYPE html>")
+print("<html lang='en'>")
+print("<head>")
+print("<!-- META -->")
+print("<meta charset='UTF-8'>")
+print("<!-- TITLE -->")
+print("<title>Kristaberslo | Receipt</title>")
+print("</head>")
+print("<body>")
+print("")
+print("</body>")
+print("</html>")

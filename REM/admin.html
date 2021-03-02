@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+
+    <!-- TITLE -->
+    <title>Kristaberslo | Admin Login</title>
+
+    <!-- CSS by Bootstrap -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JS by Bootstrap -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <br>
+    <h1 align="center">Admin Panel</h1>
+    <hr>
+    <div class='row'>
+        <div class='col-sm'>
+            <a href='/'>Home</a>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+        <form method="post" action="authenticate.py">
+            <h1 align="center">Login</h1>
+            <fieldset>
+                Username<br/> <input class="form-control" type="text" name="username" id="username" placeholder="Username"><br/>
+                Password<br/> <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+            </fieldset>
+            <br/>
+            <input class="btn btn-success" type="submit" value="Login"/>
+        </form>
+        </div>
+        <div class="col-sm"></div>
+        </div>
+        <hr>
+        <p class="muted">Copyright &copy; 2021 Kristaberslo AS. <a href="/admin.html">Admin Login</a></p>
+</div>
+</body>
+</html>
